@@ -1,6 +1,6 @@
 // Megan Avery
 
-// like imports, getting access to methods in other places
+// like imports, getting access to functions in other places
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -8,7 +8,7 @@
 // macro - a fragment of code with a name
 #define NUMBER 5
 
-// the main method
+// the main function
 // argc - the number of arguments
 // argv - an array of strings, strings are arrays of characters
 int main(int argc, char* argv[]) {
