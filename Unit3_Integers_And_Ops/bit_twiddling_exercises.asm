@@ -18,7 +18,7 @@ asm_main:
         enter   0,0               ; setup routine
         pusha
 
-	; TODO: add code
+        
 
         popa
         mov     eax, 0            ; return back to C
