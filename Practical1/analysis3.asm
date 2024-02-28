@@ -1,7 +1,7 @@
 ; Author: Megan Avery - Spring 2024
 ;
 ; What are the values (in hex) of EAX, EBX, and ECX 
-; when the registers get dumped at line 44? 
+; when the registers get dumped at line 32? 
 
 
 %include "asm_io.inc"

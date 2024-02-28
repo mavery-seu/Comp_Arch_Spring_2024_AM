@@ -25,7 +25,7 @@ asm_main:
         call read_int 
 
         add eax, eax 
-        imul eax, 5 
+        imul eax, 5  ; eax *= 5
         sub eax, 5 
         add eax, 7 
 

@@ -11,6 +11,7 @@ contain if the user enters 1, 4, 5, 7?
 #define SIZE 4
 #define FACTOR 2
 
+// enters: 1, 4, 5, 7
 int main() {
     float* nums = calloc(SIZE, sizeof(float));
 

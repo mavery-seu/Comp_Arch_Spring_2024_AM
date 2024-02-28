@@ -28,7 +28,6 @@ asm_main:
 
 	mov eax, prompt_red
         call print_string
-
         call read_int
         mov byte [red], al
 

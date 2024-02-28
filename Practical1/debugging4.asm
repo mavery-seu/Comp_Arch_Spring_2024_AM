@@ -25,9 +25,9 @@ asm_main:
 		
         call read_int
 		
-	not eax 
+	neg eax ; originally not
 
-	shr eax, 2 
+	sar eax, 2 ; originally shr
 
 	call print_int
 
