@@ -7,7 +7,7 @@ segment .data
 shift_amount dd 4
 num_letters dw 27
 
-character_prompt db "character for encodingm: ", 0
+character_prompt db "character for encoding: ", 0
 
 encode_message db " encodes to ", 0
 
