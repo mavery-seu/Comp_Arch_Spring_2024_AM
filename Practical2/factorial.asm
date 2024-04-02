@@ -17,7 +17,7 @@ asm_main:
         enter   0,0                             ; setup routine
         pusha
 
-		mov eax, prompt                         ; move prompt into EAX
+        mov eax, prompt                         ; move prompt into EAX
         call print_string                       ; print prompt
 
         call read_int                           ; read an integer from the user and store it in EAX

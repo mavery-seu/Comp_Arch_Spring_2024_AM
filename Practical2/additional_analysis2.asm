@@ -64,7 +64,6 @@ get_sum:
     mov dword [ebp - 8], 0
 
     mov ecx, [ebp + 8]
-    
 for:
     mov ebx, ebp
     add ebx, [ebp - 4]
@@ -76,8 +75,6 @@ for:
 
     add dword [ebp - 4], 4
     loop for
-
-    
 
     mov esp, ebp
     pop ebp

@@ -18,7 +18,7 @@ asm_main:
         enter   0,0               ; setup routine
         pusha
 
-		mov eax, prompt
+	mov eax, prompt
         call print_string
 
         call read_int
